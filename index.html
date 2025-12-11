@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Rohit | Cyber Security Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description"
+        content="Portfolio of Jose Rohit, a Cyber Security Engineering Student specializing in Network Security, IAM, and Secure Software Development.">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <nav class="navbar">
+        <div class="logo">JR<span class="dot">.</span></div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="badge">Cyber Security Student</div>
+                <h1 class="glitch" data-text="Jose Rohit">Jose Rohit</h1>
+                <p class="subtitle">Cyber Security · Network & IAM · Secure Software</p>
+                <p class="bio">
+                    Cyber Security student with strong foundations in networking, secure software development,
+                    blockchain, and distributed systems. Experienced in building secure applications,
+                    PQC-based protocols, blockchain voting, and IAM integrations.
+                </p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="Jose_Rohit_Resume.pdf" class="btn secondary" download>Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="shield-container">
+                    <div class="shield-inner"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="education-card card">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="year">2026</span>
+                            <div class="details">
+                                <h4>B.Tech in Computer Science and Engineering</h4>
+                                <span class="sub">Specialization in Cyber Security</span>
+                                <p>ASE, Coimbatore (CGPA: 8.14 / 10)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">2022</span>
+                            <div class="details">
+                                <h4>Class XII (CBSE)</h4>
+                                <span class="sub">Nalanda International Public School</span>
+                                <p>MPC – 84%</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">2020</span>
+                            <div class="details">
+                                <h4>Class X (State Board)</h4>
+                                <span class="sub">Sri Vijay Vidyalaya</span>
+                                <p>98%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certifications-card card">
+                    <h3>Certifications & Learning</h3>
+                    <ul class="cert-list">
+                        <li>Introduction to Networking – CISCO</li>
+                        <li>Palo Alto Networks Security Training</li>
+                        <li>Cyber Crime Intervention Officer (ISAC)</li>
+                        <li>Cybersecurity Analyst IAM Job Simulation</li>
+                        <li class="learning">• CompTIA Security+ (In Progress)</li>
+                        <li class="learning">• Wazuh SIEM & Endpoint Security</li>
+                        <li class="learning">• OKTA IAM</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card" data-tilt>
+                    <div class="project-header">
+                        <h3>Q-SFTP</h3>
+                        <span class="tag high-priority">Final Year Project</span>
+                    </div>
+                    <p class="tech-stack">Kyber512 · Dilithium2 · AES-256-GCM · TCP/IP</p>
+                    <p class="project-desc">
+                        Quantum-Safe Secure File Transfer Protocol using PQC. Implemented Kyber512 and Dilithium2 for
+                        handshake and auth. AES-256-GCM encrypted pipeline for secure cross-platform file transfer.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/joserohit264/Q_SFTP" target="_blank">GitHub <span
+                                class="arrow">↗</span></a>
+                    </div>
+                </article>
+
+
+                <!-- Project 2 -->
+                <article class="project-card" data-tilt>
+                    <div class="project-header">
+                        <h3>Secure Password Manager</h3>
+                        <span class="tag">Zero-Knowledge</span>
+                    </div>
+                    <p class="tech-stack">Rust WebAssembly · AES-256-GCM · Argon2id</p>
+                    <p class="project-desc">
+                        Offline-first password manager using Rust-based WASM. Zero-knowledge architecture with
+                        client-side encryption for secure data management.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/joserohit264/Secure_Password_Manager" target="_blank">GitHub
+                            <span class="arrow">↗</span></a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card" data-tilt>
+                    <div class="project-header">
+                        <h3>Enterprise Blockchain Voting</h3>
+                    </div>
+                    <p class="tech-stack">Ethereum · Solidity · Sepolia</p>
+                    <p class="project-desc">
+                        Transparent, tamper-proof voting system on Sepolia testnet. Features voter registration,
+                        casting, and automated tallying with immutable logs.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/joserohit264/Projects/tree/main/Enterprise-Blockchain"
+                            target="_blank">GitHub <span class="arrow">↗</span></a>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card" data-tilt>
+                    <div class="project-header">
+                        <h3>Homomorphic Medical Analytics</h3>
+                        <span class="tag">Privacy-Preserving</span>
+                    </div>
+                    <p class="tech-stack">FHE · TenSEAL · FastAPI · Docker</p>
+                    <p class="project-desc">
+                        Privacy-preserving analytics using Fully Homomorphic Encryption. Computes risk scores
+                        on encrypted data using TenSEAL (CKKS).
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/joserohit264/homomorphic-medical-analytics" target="_blank">GitHub
+                            <span class="arrow">↗</span></a>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card" data-tilt>
+                    <div class="project-header">
+                        <h3>ECC Secure Messaging</h3>
+                    </div>
+                    <p class="tech-stack">Python · Flask · ECC</p>
+                    <p class="project-desc">
+                        Web-based secure communication system using Elliptic Curve Cryptography for real-time
+                        encrypted messaging.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/joserohit264/Projects/tree/main/ECC_APP" target="_blank">GitHub
+                            <span class="arrow">↗</span></a>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card" data-tilt>
+                    <div class="project-header">
+                        <h3>Auto License Plate Recognition</h3>
+                    </div>
+                    <p class="tech-stack">OpenCV · TensorFlow · Tesseract</p>
+                    <p class="project-desc">
+                        ALPR system for license plate detection featuring image preprocessing and ML-based
+                        candidate filtering.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/joserohit264/Projects/tree/main/ALPR" target="_blank">GitHub <span
+                                class="arrow">↗</span></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3>Domains</h3>
+                    <div class="tags">
+                        <span>Network Security</span>
+                        <span>IAM</span>
+                        <span>Secure Software Dev</span>
+                        <span>Blockchain</span>
+                        <span>Cryptography</span>
+                        <span>Linux Hardening</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>C++</span>
+                        <span>Java</span>
+                        <span>Solidity</span>
+                        <span>Rust (WASM)</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="tags">
+                        <span>Wireshark</span>
+                        <span>Nmap</span>
+                        <span>Hashcat</span>
+                        <span>Docker</span>
+                        <span>Hyperledger</span>
+                        <span>Burp Suite</span>
+                        <span>Tesseract</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>IAM</h3>
+                    <div class="tags">
+                        <span>Identity Lifecycle</span>
+                        <span>RBAC / ABAC</span>
+                        <span>MFA & SSO</span>
+                        <span>Zero Trust</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-card card">
+                <p>Open for opportunities in Cyber Security, IAM, and Network Engineering.</p>
+                <div class="contact-links-large">
+                    <a href="mailto:joserohitbest@gmail.com" class="contact-pill">
+                        <span class="icon">✉</span> joserohitbest@gmail.com
+                    </a>
+                    <a href="tel:+916383828654" class="contact-pill">
+                        <span class="icon">☏</span> +91 63838 28654
+                    </a>
+                    <a href="https://linkedin.com/in/jose-rohit-068814259" target="_blank" class="contact-pill">
+                        <span class="icon">in</span> LinkedIn
+                    </a>
+                    <a href="https://github.com/joserohit264/Projects" target="_blank" class="contact-pill">
+                        <span class="icon">gh</span> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year">2025</span> Jose Rohit. Crafted with security in mind.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
