@@ -25,6 +25,10 @@
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                <span class="sun-icon">☀</span>
+                <span class="moon-icon">☾</span>
+            </button>
         </div>
     </nav>
 
@@ -35,9 +39,13 @@
                 <h1 class="glitch" data-text="Jose Rohit">Jose Rohit</h1>
                 <p class="subtitle">Cyber Security · Network & IAM · Secure Software</p>
                 <p class="bio">
-                    Cyber Security student with strong foundations in networking, secure software development,
-                    blockchain, and distributed systems. Experienced in building secure applications,
-                    PQC-based protocols, blockchain voting, and IAM integrations.
+                    Cyber Security engineering student with a strong foundation in <strong>GRC</strong>,
+                    <strong>IAM</strong>, <strong>networks</strong> and <strong>network security</strong>. Hands-on
+                    experience with <strong>Wazuh SIEM</strong> for security monitoring and alert analysis, and
+                    currently learning advanced features such as rule tuning and endpoint monitoring. Familiar with
+                    <strong>ISO 27001</strong> and <strong>SOC 2</strong> compliance standards. Experience using
+                    <strong>osTicket</strong> for IT service management and SLA-based ticket handling. Currently
+                    pursuing <strong>CompTIA Security+</strong>.
                 </p>
                 <div class="cta-group">
                     <a href="#projects" class="btn primary">View Projects</a>
@@ -60,9 +68,9 @@
                         <div class="timeline-item">
                             <span class="year">2026</span>
                             <div class="details">
-                                <h4>B.Tech in Computer Science and Engineering</h4>
-                                <span class="sub">Specialization in Cyber Security</span>
-                                <p>ASE, Coimbatore (CGPA: 8.14 / 10)</p>
+                                <h4>B.Tech in Computer Science and Engineering – Cyber Security</h4>
+                                <span class="sub">Amrita School of Engineering, Coimbatore</span>
+                                <p>CGPA: 8.19 / 10</p>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -87,13 +95,13 @@
                 <div class="certifications-card card">
                     <h3>Certifications & Learning</h3>
                     <ul class="cert-list">
-                        <li>Introduction to Networking – CISCO</li>
-                        <li>Palo Alto Networks Security Training</li>
-                        <li>Cyber Crime Intervention Officer (ISAC)</li>
-                        <li>Cybersecurity Analyst IAM Job Simulation</li>
-                        <li class="learning">• CompTIA Security+ (In Progress)</li>
+                        <li>CISCO – Introduction to Networking</li>
+                        <li>Palo Alto Networks – Network Security</li>
+                        <li>ISAC – Cyber Crime Intervention Officer</li>
+                        <li>Okta – Explore Identity Foundations (2025)</li>
+                        <li>Forage – Cybersecurity Analyst IAM Job Simulation (2025)</li>
+                        <li class="learning">• CompTIA Security+ (SY0-701) - In Progress</li>
                         <li class="learning">• Wazuh SIEM & Endpoint Security</li>
-                        <li class="learning">• OKTA IAM</li>
                     </ul>
                 </div>
             </div>
@@ -106,15 +114,15 @@
                 <article class="project-card" data-tilt>
                     <div class="project-header">
                         <h3>Q-SFTP</h3>
-                        <span class="tag high-priority">Final Year Project</span>
+                        <span class="tag high-priority">Quantum Secure</span>
                     </div>
-                    <p class="tech-stack">Kyber512 · Dilithium2 · AES-256-GCM · TCP/IP</p>
+                    <p class="tech-stack">Kyber512 · Dilithium2 · AES-256-GCM · Flask</p>
                     <p class="project-desc">
-                        Quantum-Safe Secure File Transfer Protocol using PQC. Implemented Kyber512 and Dilithium2 for
-                        handshake and auth. AES-256-GCM encrypted pipeline for secure cross-platform file transfer.
+                        Quantum-safe secure file transfer protocol using Kyber512 and Dilithium2. Features end-to-end
+                        encryption with AES-256-GCM, RBAC, and metadata stripping.
                     </p>
                     <div class="project-links">
-                        <a href="https://github.com/joserohit264/Q_SFTP" target="_blank">GitHub <span
+                        <a href="https://github.com/joserohit264/Quantum_SFTP_GUI" target="_blank">GitHub <span
                                 class="arrow">↗</span></a>
                     </div>
                 </article>
@@ -123,16 +131,17 @@
                 <!-- Project 2 -->
                 <article class="project-card" data-tilt>
                     <div class="project-header">
-                        <h3>Secure Password Manager</h3>
-                        <span class="tag">Zero-Knowledge</span>
+                        <h3>VendorGuard</h3>
+                        <span class="tag high-priority">GRC Automation</span>
                     </div>
-                    <p class="tech-stack">Rust WebAssembly · AES-256-GCM · Argon2id</p>
+                    <p class="tech-stack">GRC · ISO 27001 · SOC 2 · Risk Assessment</p>
                     <p class="project-desc">
-                        Offline-first password manager using Rust-based WASM. Zero-knowledge architecture with
-                        client-side encryption for secure data management.
+                        Automated GRC platform for Vendor Risk Management
+                        (VRM). Features a Risk Engine mapping risks to
+                        ISO 27001 & SOC 2 controls and "Compliance as Code" dashboards.
                     </p>
                     <div class="project-links">
-                        <a href="https://github.com/joserohit264/Secure_Password_Manager" target="_blank">GitHub
+                        <a href="https://github.com/joserohit264/VendorGuard-Lite" target="_blank">GitHub
                             <span class="arrow">↗</span></a>
                     </div>
                 </article>
@@ -140,64 +149,17 @@
                 <!-- Project 3 -->
                 <article class="project-card" data-tilt>
                     <div class="project-header">
-                        <h3>Enterprise Blockchain Voting</h3>
+                        <h3>Zero-Trust IAM System</h3>
+                        <span class="tag high-priority">Zero Trust</span>
                     </div>
-                    <p class="tech-stack">Ethereum · Solidity · Sepolia</p>
+                    <p class="tech-stack">RBAC · MFA (TOTP) · JWT · Cryptography</p>
                     <p class="project-desc">
-                        Transparent, tamper-proof voting system on Sepolia testnet. Features voter registration,
-                        casting, and automated tallying with immutable logs.
+                        Secure IAM system with Zero Trust principles. Implements strict
+                        identity verification, rate
+                        limiting, and tamper-evident audit logs using cryptographic hash chaining.
                     </p>
                     <div class="project-links">
-                        <a href="https://github.com/joserohit264/Projects/tree/main/Enterprise-Blockchain"
-                            target="_blank">GitHub <span class="arrow">↗</span></a>
-                    </div>
-                </article>
-
-                <!-- Project 4 -->
-                <article class="project-card" data-tilt>
-                    <div class="project-header">
-                        <h3>Homomorphic Medical Analytics</h3>
-                        <span class="tag">Privacy-Preserving</span>
-                    </div>
-                    <p class="tech-stack">FHE · TenSEAL · FastAPI · Docker</p>
-                    <p class="project-desc">
-                        Privacy-preserving analytics using Fully Homomorphic Encryption. Computes risk scores
-                        on encrypted data using TenSEAL (CKKS).
-                    </p>
-                    <div class="project-links">
-                        <a href="https://github.com/joserohit264/homomorphic-medical-analytics" target="_blank">GitHub
-                            <span class="arrow">↗</span></a>
-                    </div>
-                </article>
-
-                <!-- Project 5 -->
-                <article class="project-card" data-tilt>
-                    <div class="project-header">
-                        <h3>ECC Secure Messaging</h3>
-                    </div>
-                    <p class="tech-stack">Python · Flask · ECC</p>
-                    <p class="project-desc">
-                        Web-based secure communication system using Elliptic Curve Cryptography for real-time
-                        encrypted messaging.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://github.com/joserohit264/Projects/tree/main/ECC_APP" target="_blank">GitHub
-                            <span class="arrow">↗</span></a>
-                    </div>
-                </article>
-
-                <!-- Project 6 -->
-                <article class="project-card" data-tilt>
-                    <div class="project-header">
-                        <h3>Auto License Plate Recognition</h3>
-                    </div>
-                    <p class="tech-stack">OpenCV · TensorFlow · Tesseract</p>
-                    <p class="project-desc">
-                        ALPR system for license plate detection featuring image preprocessing and ML-based
-                        candidate filtering.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://github.com/joserohit264/Projects/tree/main/ALPR" target="_blank">GitHub <span
+                        <a href="https://github.com/joserohit264/zero-trust-IAM" target="_blank">GitHub <span
                                 class="arrow">↗</span></a>
                     </div>
                 </article>
@@ -212,10 +174,11 @@
                     <div class="tags">
                         <span>Network Security</span>
                         <span>IAM</span>
-                        <span>Secure Software Dev</span>
-                        <span>Blockchain</span>
-                        <span>Cryptography</span>
+                        <span>GRC</span>
+                        <span>SOC 2 / ISO 27001</span>
                         <span>Linux Hardening</span>
+                        <span>Threat Modelling</span>
+                        <span>Cryptography</span>
                     </div>
                 </div>
                 <div class="skill-category">
@@ -230,24 +193,34 @@
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Tools</h3>
+                    <h3>Tools & Technologies</h3>
                     <div class="tags">
                         <span>Wireshark</span>
                         <span>Nmap</span>
-                        <span>Hashcat</span>
+                        <span>Linux</span>
                         <span>Docker</span>
-                        <span>Hyperledger</span>
-                        <span>Burp Suite</span>
-                        <span>Tesseract</span>
+                        <span>Wazuh SIEM</span>
+                        <span>AWS (Basic)</span>
+                        <span>osTicket</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>GRC</h3>
+                    <div class="tags">
+                        <span>Risk Assessment</span>
+                        <span>Security Controls</span>
+                        <span>Compliance Tracking</span>
+                        <span>Gap Analysis</span>
+                        <span>Evidence Collection</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>IAM</h3>
                     <div class="tags">
                         <span>Identity Lifecycle</span>
+                        <span>Access Provisioning</span>
                         <span>RBAC / ABAC</span>
-                        <span>MFA & SSO</span>
-                        <span>Zero Trust</span>
+                        <span>SAML / OIDC / FIDO2</span>
                     </div>
                 </div>
             </div>
@@ -267,7 +240,7 @@
                     <a href="https://linkedin.com/in/jose-rohit-068814259" target="_blank" class="contact-pill">
                         <span class="icon">in</span> LinkedIn
                     </a>
-                    <a href="https://github.com/joserohit264/Projects" target="_blank" class="contact-pill">
+                    <a href="https://github.com/joserohit264" target="_blank" class="contact-pill">
                         <span class="icon">gh</span> GitHub
                     </a>
                 </div>
